@@ -58,3 +58,7 @@ In the ideal they would be stored locally until BE is reachable. At that stage i
 
 I've tried my best at providing an app that is scalable and innovative architecture and pattern wise while keeping good practices, though not being your full typical design.
 Given how simple the app is, we could have chosen to go for a simpler architecture and design, while retaining the scalability, but because it's made in the context of a test, it was also to showcase some boldness and leads to reflect. It's not perfect, but I think and hope it shows a lot of how I like to envision and debate about my code.
+
+## Post-Scriptum
+
+The app uses SPMs both local and for the snapshot package. It was tested 3 times on my side by re cloning each time from scratch and running the app, and worked as expected.
