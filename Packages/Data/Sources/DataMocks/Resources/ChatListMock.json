@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ChatTestId",
+    "name": "Hello World",
+    "last_updated": "2024-09-24T06:00:00",
+    "messages": [
+      {
+        "id": "fixture1Id",
+        "text": "This is a test message number 1",
+        "last_updated": "2024-09-24T06:00:00"
+      },
+      {
+        "id": "fixture2Id",
+        "text": "This is a test message number 2",
+        "last_updated": "2024-09-22T03:00:00"
+      },
+      {
+        "id": "fixture3Id",
+        "text": "This is a test message number 3",
+        "last_updated": "2024-09-23T09:00:00"
+      }
+    ]
+  }
+]
