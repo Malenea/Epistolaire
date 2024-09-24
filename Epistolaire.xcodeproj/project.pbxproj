@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA381702CA1C291009669D8 /* EpistolaireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3816F2CA1C291009669D8 /* EpistolaireApp.swift */; };
+		FAA381742CA1C292009669D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA381732CA1C292009669D8 /* Assets.xcassets */; };
+		FAA381772CA1C292009669D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA381762CA1C292009669D8 /* Preview Assets.xcassets */; };
+		FAA381792CA1C292009669D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA381782CA1C292009669D8 /* Persistence.swift */; };
+		FAA3817C2CA1C292009669D8 /* Epistolaire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA3817A2CA1C292009669D8 /* Epistolaire.xcdatamodeld */; };
+		FAA381862CA1C292009669D8 /* EpistolaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA381852CA1C292009669D8 /* EpistolaireTests.swift */; };
+		FAA381902CA1C292009669D8 /* EpistolaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3818F2CA1C292009669D8 /* EpistolaireUITests.swift */; };
+		FAA381922CA1C292009669D8 /* EpistolaireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA381912CA1C292009669D8 /* EpistolaireUITestsLaunchTests.swift */; };
+		FAA381A62CA1C9D8009669D8 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = FAA381A52CA1C9D8009669D8 /* Domain */; };
+		FAA381A82CA1C9DB009669D8 /* Messaging in Frameworks */ = {isa = PBXBuildFile; productRef = FAA381A72CA1C9DB009669D8 /* Messaging */; };
+		FAA381AE2CA225F9009669D8 /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = FAA381AD2CA225F9009669D8 /* Shared */; };
+		FAA381B02CA2391C009669D8 /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA381AF2CA2391C009669D8 /* HomeCoordinatorView.swift */; };
+		FAA381B32CA26790009669D8 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = FAA381B22CA26790009669D8 /* Data */; };
+		FAA381B52CA26792009669D8 /* DataProtocols in Frameworks */ = {isa = PBXBuildFile; productRef = FAA381B42CA26792009669D8 /* DataProtocols */; };
+		FAA381B72CA26FA2009669D8 /* DataMocks in Frameworks */ = {isa = PBXBuildFile; productRef = FAA381B62CA26FA2009669D8 /* DataMocks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA381822CA1C292009669D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA381642CA1C291009669D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA3816B2CA1C291009669D8;
+			remoteInfo = Epistolaire;
+		};
+		FAA3818C2CA1C292009669D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA381642CA1C291009669D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA3816B2CA1C291009669D8;
+			remoteInfo = Epistolaire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA3816C2CA1C291009669D8 /* Epistolaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epistolaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA3816F2CA1C291009669D8 /* EpistolaireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpistolaireApp.swift; sourceTree = "<group>"; };
+		FAA381732CA1C292009669D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA381762CA1C292009669D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA381782CA1C292009669D8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FAA3817B2CA1C292009669D8 /* Epistolaire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Epistolaire.xcdatamodel; sourceTree = "<group>"; };
+		FAA381812CA1C292009669D8 /* EpistolaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpistolaireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA381852CA1C292009669D8 /* EpistolaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpistolaireTests.swift; sourceTree = "<group>"; };
+		FAA3818B2CA1C292009669D8 /* EpistolaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpistolaireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA3818F2CA1C292009669D8 /* EpistolaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpistolaireUITests.swift; sourceTree = "<group>"; };
+		FAA381912CA1C292009669D8 /* EpistolaireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpistolaireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAA381A22CA1C6CB009669D8 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		FAA381A32CA1C6E6009669D8 /* Messaging */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Messaging; sourceTree = "<group>"; };
+		FAA381AB2CA1D653009669D8 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
+		FAA381AC2CA225E8009669D8 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Shared; sourceTree = "<group>"; };
+		FAA381AF2CA2391C009669D8 /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA381692CA1C291009669D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA381B52CA26792009669D8 /* DataProtocols in Frameworks */,
+				FAA381A62CA1C9D8009669D8 /* Domain in Frameworks */,
+				FAA381B72CA26FA2009669D8 /* DataMocks in Frameworks */,
+				FAA381A82CA1C9DB009669D8 /* Messaging in Frameworks */,
+				FAA381B32CA26790009669D8 /* Data in Frameworks */,
+				FAA381AE2CA225F9009669D8 /* Shared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3817E2CA1C292009669D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA381882CA1C292009669D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA381632CA1C291009669D8 = {
+			isa = PBXGroup;
+			children = (
+				FAA3819F2CA1C354009669D8 /* Packages */,
+				FAA3816E2CA1C291009669D8 /* Epistolaire */,
+				FAA381842CA1C292009669D8 /* EpistolaireTests */,
+				FAA3818E2CA1C292009669D8 /* EpistolaireUITests */,
+				FAA3816D2CA1C291009669D8 /* Products */,
+				FAA381A42CA1C9D8009669D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA3816D2CA1C291009669D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3816C2CA1C291009669D8 /* Epistolaire.app */,
+				FAA381812CA1C292009669D8 /* EpistolaireTests.xctest */,
+				FAA3818B2CA1C292009669D8 /* EpistolaireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA3816E2CA1C291009669D8 /* Epistolaire */ = {
+			isa = PBXGroup;
+			children = (
+				FAA381AA2CA1D3E5009669D8 /* Assets */,
+				FAA381A92CA1D3E1009669D8 /* DB */,
+				FAA3816F2CA1C291009669D8 /* EpistolaireApp.swift */,
+				FAA381B12CA2394F009669D8 /* HomeCoordinator */,
+				FAA381752CA1C292009669D8 /* Preview Content */,
+			);
+			path = Epistolaire;
+			sourceTree = "<group>";
+		};
+		FAA381752CA1C292009669D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA381762CA1C292009669D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA381842CA1C292009669D8 /* EpistolaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA381852CA1C292009669D8 /* EpistolaireTests.swift */,
+			);
+			path = EpistolaireTests;
+			sourceTree = "<group>";
+		};
+		FAA3818E2CA1C292009669D8 /* EpistolaireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3818F2CA1C292009669D8 /* EpistolaireUITests.swift */,
+				FAA381912CA1C292009669D8 /* EpistolaireUITestsLaunchTests.swift */,
+			);
+			path = EpistolaireUITests;
+			sourceTree = "<group>";
+		};
+		FAA3819F2CA1C354009669D8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FAA381AC2CA225E8009669D8 /* Shared */,
+				FAA381AB2CA1D653009669D8 /* Data */,
+				FAA381A22CA1C6CB009669D8 /* Domain */,
+				FAA381A32CA1C6E6009669D8 /* Messaging */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		FAA381A42CA1C9D8009669D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA381A92CA1D3E1009669D8 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				FAA381782CA1C292009669D8 /* Persistence.swift */,
+				FAA3817A2CA1C292009669D8 /* Epistolaire.xcdatamodeld */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		FAA381AA2CA1D3E5009669D8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FAA381732CA1C292009669D8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FAA381B12CA2394F009669D8 /* HomeCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FAA381AF2CA2391C009669D8 /* HomeCoordinatorView.swift */,
+			);
+			path = HomeCoordinator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA3816B2CA1C291009669D8 /* Epistolaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA381952CA1C292009669D8 /* Build configuration list for PBXNativeTarget "Epistolaire" */;
+			buildPhases = (
+				FAA381682CA1C291009669D8 /* Sources */,
+				FAA381692CA1C291009669D8 /* Frameworks */,
+				FAA3816A2CA1C291009669D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Epistolaire;
+			packageProductDependencies = (
+				FAA381A52CA1C9D8009669D8 /* Domain */,
+				FAA381A72CA1C9DB009669D8 /* Messaging */,
+				FAA381AD2CA225F9009669D8 /* Shared */,
+				FAA381B22CA26790009669D8 /* Data */,
+				FAA381B42CA26792009669D8 /* DataProtocols */,
+				FAA381B62CA26FA2009669D8 /* DataMocks */,
+			);
+			productName = Epistolaire;
+			productReference = FAA3816C2CA1C291009669D8 /* Epistolaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA381802CA1C292009669D8 /* EpistolaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA381982CA1C292009669D8 /* Build configuration list for PBXNativeTarget "EpistolaireTests" */;
+			buildPhases = (
+				FAA3817D2CA1C292009669D8 /* Sources */,
+				FAA3817E2CA1C292009669D8 /* Frameworks */,
+				FAA3817F2CA1C292009669D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA381832CA1C292009669D8 /* PBXTargetDependency */,
+			);
+			name = EpistolaireTests;
+			productName = EpistolaireTests;
+			productReference = FAA381812CA1C292009669D8 /* EpistolaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA3818A2CA1C292009669D8 /* EpistolaireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA3819B2CA1C292009669D8 /* Build configuration list for PBXNativeTarget "EpistolaireUITests" */;
+			buildPhases = (
+				FAA381872CA1C292009669D8 /* Sources */,
+				FAA381882CA1C292009669D8 /* Frameworks */,
+				FAA381892CA1C292009669D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA3818D2CA1C292009669D8 /* PBXTargetDependency */,
+			);
+			name = EpistolaireUITests;
+			productName = EpistolaireUITests;
+			productReference = FAA3818B2CA1C292009669D8 /* EpistolaireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA381642CA1C291009669D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FAA3816B2CA1C291009669D8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FAA381802CA1C292009669D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAA3816B2CA1C291009669D8;
+					};
+					FAA3818A2CA1C292009669D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAA3816B2CA1C291009669D8;
+					};
+				};
+			};
+			buildConfigurationList = FAA381672CA1C291009669D8 /* Build configuration list for PBXProject "Epistolaire" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA381632CA1C291009669D8;
+			productRefGroup = FAA3816D2CA1C291009669D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA3816B2CA1C291009669D8 /* Epistolaire */,
+				FAA381802CA1C292009669D8 /* EpistolaireTests */,
+				FAA3818A2CA1C292009669D8 /* EpistolaireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA3816A2CA1C291009669D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA381772CA1C292009669D8 /* Preview Assets.xcassets in Resources */,
+				FAA381742CA1C292009669D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3817F2CA1C292009669D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA381892CA1C292009669D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA381682CA1C291009669D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA381B02CA2391C009669D8 /* HomeCoordinatorView.swift in Sources */,
+				FAA381792CA1C292009669D8 /* Persistence.swift in Sources */,
+				FAA3817C2CA1C292009669D8 /* Epistolaire.xcdatamodeld in Sources */,
+				FAA381702CA1C291009669D8 /* EpistolaireApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3817D2CA1C292009669D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA381862CA1C292009669D8 /* EpistolaireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA381872CA1C292009669D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA381922CA1C292009669D8 /* EpistolaireUITestsLaunchTests.swift in Sources */,
+				FAA381902CA1C292009669D8 /* EpistolaireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA381832CA1C292009669D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA3816B2CA1C291009669D8 /* Epistolaire */;
+			targetProxy = FAA381822CA1C292009669D8 /* PBXContainerItemProxy */;
+		};
+		FAA3818D2CA1C292009669D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA3816B2CA1C291009669D8 /* Epistolaire */;
+			targetProxy = FAA3818C2CA1C292009669D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAA381932CA1C292009669D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA381942CA1C292009669D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA381962CA1C292009669D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Epistolaire/Preview Content\"";
+				DEVELOPMENT_TEAM = YX9LX34T63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malenea.Epistolaire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA381972CA1C292009669D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Epistolaire/Preview Content\"";
+				DEVELOPMENT_TEAM = YX9LX34T63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malenea.Epistolaire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA381992CA1C292009669D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX9LX34T63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malenea.EpistolaireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epistolaire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Epistolaire";
+			};
+			name = Debug;
+		};
+		FAA3819A2CA1C292009669D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX9LX34T63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malenea.EpistolaireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epistolaire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Epistolaire";
+			};
+			name = Release;
+		};
+		FAA3819C2CA1C292009669D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX9LX34T63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malenea.EpistolaireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Epistolaire;
+			};
+			name = Debug;
+		};
+		FAA3819D2CA1C292009669D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX9LX34T63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Malenea.EpistolaireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Epistolaire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA381672CA1C291009669D8 /* Build configuration list for PBXProject "Epistolaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA381932CA1C292009669D8 /* Debug */,
+				FAA381942CA1C292009669D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA381952CA1C292009669D8 /* Build configuration list for PBXNativeTarget "Epistolaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA381962CA1C292009669D8 /* Debug */,
+				FAA381972CA1C292009669D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA381982CA1C292009669D8 /* Build configuration list for PBXNativeTarget "EpistolaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA381992CA1C292009669D8 /* Debug */,
+				FAA3819A2CA1C292009669D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA3819B2CA1C292009669D8 /* Build configuration list for PBXNativeTarget "EpistolaireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA3819C2CA1C292009669D8 /* Debug */,
+				FAA3819D2CA1C292009669D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAA381A52CA1C9D8009669D8 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		FAA381A72CA1C9DB009669D8 /* Messaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Messaging;
+		};
+		FAA381AD2CA225F9009669D8 /* Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Shared;
+		};
+		FAA381B22CA26790009669D8 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		FAA381B42CA26792009669D8 /* DataProtocols */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DataProtocols;
+		};
+		FAA381B62CA26FA2009669D8 /* DataMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DataMocks;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FAA3817A2CA1C292009669D8 /* Epistolaire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA3817B2CA1C292009669D8 /* Epistolaire.xcdatamodel */,
+			);
+			currentVersion = FAA3817B2CA1C292009669D8 /* Epistolaire.xcdatamodel */;
+			path = Epistolaire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA381642CA1C291009669D8 /* Project object */;
+}
